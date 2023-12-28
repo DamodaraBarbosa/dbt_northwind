@@ -1,8 +1,8 @@
-with
-    category as (
-        select *
-        from {{ source('northwind', 'category') }}
-    )
+-- with
+--     category as (
+--         select *
+--         from {{ source('northwind', 'category') }}
+--     )
 
-select *
-from category
+-- select *
+-- from category
