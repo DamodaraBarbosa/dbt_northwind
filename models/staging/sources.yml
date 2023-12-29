@@ -18,7 +18,7 @@ sources:
             tests:
               - relationships:
                   field: customer_id
-                  to: ref('customers')
+                  to: ref('stg_customers')
       - name: customers
         description: This table lists the customers from ERP Northwind
         columns:
