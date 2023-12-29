@@ -6,7 +6,7 @@ with
         , address
         , city
         , country
-        from {{source('northwind', 'customers')}}
+        from {{ source('northwind', 'customers' )}}
     )
 
 select *
