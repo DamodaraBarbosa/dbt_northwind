@@ -34,3 +34,13 @@ sources:
             description: Unique ID for this table
       - name: order_details
         description: This table lists the order details from ERP Northwind
+      - name: products
+        description: This table contains infos about products of ERP Northwind
+        columns: 
+          - name: product_id
+            description: Unique ID for products in this table
+      - name: suppliers
+        description: This table contains infos about suppliers of ERP Northwind
+        columns:
+          - name: suppliers_id
+            description: Unique ID for suppliers in this table
